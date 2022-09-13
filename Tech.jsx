@@ -54,6 +54,7 @@ var accept=[]
             <div className='praccss' style={{"backgroundImage":`url(${elem.image})`}}>
             <h3>{elem.name}</h3>
             <h3>{elem.symbol}</h3>
+            <h3>{elem.current_price}</h3>
             {/* <h3>{elem.}</h3> */}
 
             </div>
