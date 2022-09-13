@@ -1,37 +1,55 @@
+body{
+  background:#165D9A;
+}
 
 .praccss{
-    width: 400px;
-    height: 200px;
-    backdrop-filter: blur(10px) saturate(172%);
-    -webkit-backdrop-filter: blur(10px) saturate(172%);
-    background-color: rgba(17, 25, 40, 0.29);
-    
-    display: flex;
-    flex-direction: column;
-    border: 2px solid pink;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    margin-top: 20px;
+  width: 400px;
+  height: 200px;
+  backdrop-filter: blur(10px) saturate(172%);
+  -webkit-backdrop-filter: blur(10px) saturate(172%);
+  background-color: rgba(17, 25, 40, 0.29);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid pink;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-top: 20px;
+}
+.praccss img{
+  width: 400px;
+  height: 200px;
+  background-size:cover;
+  position: relative;
+  background: no-repeat center center fixed;
+  margin-top: 180px;
+  opacity: 0.4;
+}
+
+.card-content{
+  height: 100%;
+  widows: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .prac-main{
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction:column-reverse ;
-    justify-content: center;
-    align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction:column-reverse ;
+  justify-content: center;
+  align-items: center;
 }
-.praccss {
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size:contain;
-   
 
-}
 .praccss h3{
-    z-index: 3;
-    font-weight: bolder;
+  z-index: 3;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  bottom: 180px;
 }
