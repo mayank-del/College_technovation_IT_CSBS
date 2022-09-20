@@ -2,7 +2,7 @@ import "./styles.css";
 import axios from "axios";
 import {useState,useEffect} from "react";
 
-export default function App() {
+export default function Mike() {
   const [data,setData]=useState([])
 
   useEffect(()=>{
@@ -19,7 +19,7 @@ export default function App() {
     <div className='prac-main'>
               
     {data.map(elem=>(
-            <div className='praccss'>
+            <div className='card'>
               <img src={elem.image} alt="dddfgd"/>
               <div className="card-content">
                 
