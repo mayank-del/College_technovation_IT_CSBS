@@ -2,7 +2,7 @@ import "./styles.css";
 import axios from "axios";
 import {useState,useEffect} from "react";
 
-export default function Mike() {
+export default function Tech() {
   const [data,setData]=useState([])
 
   useEffect(()=>{
