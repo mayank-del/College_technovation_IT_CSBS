@@ -1,31 +1,40 @@
-body{
-  background:#165d9a;
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }
-.card{
-
-  width:400px;
-  height:200px;
-  border: 1px solid pink;
-  margin-top: 20px;
-  border-radius: 20px;
+body {
+  background: black;
+}
+.card {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 30px;
   display: flex;
-  background-color:rgba(17,25,40,0.29) ;
-  flex-direction:column;
-  justify-content:center;
+  border-radius: 23px;
+  box-shadow: 6px 6px 12px #313535, -6px -6px 12px #2a2929;
+  background-color: rgba(17, 21, 27, 0.29);
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   backdrop-filter: blur(10px) saturation(172%);
   -webkit-backdrop-filter: blur(10px) saturation(172%);
-
 }
-.card img{
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card img {
   width: 400px;
-  height:200px;
+  height: 200px;
   background-size: cover;
   opacity: 0.2;
   margin-top: 140px;
 }
-.card h3{
+.card h3 {
   color: white;
   position: relative;
-  bottom:180px;
+  bottom: 180px;
 }
