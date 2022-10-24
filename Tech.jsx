@@ -14,21 +14,19 @@ export default function Tech() {
     })
    },[])
 
-  return (
-    <div className="App" style={{"minHeight":"100vh","width":"100%","display":"flex","justifyContent":"center" ,"alignItems":"center"}}>
-    <div className='prac-main'>
-              
-    {data.map(elem=>(
-            <div className='card'>
-              <img src={elem.image} alt="dddfgd"/>
-              <div className="card-content">
-                
-            <h3>{elem.name}</h3>
-            <h3>{elem.symbol}</h3>
-            <h3>{elem.current_price}</h3>
-           
-      </div>
+   return (
+    <div
+      className="App">
+      <div className="card-container">
+        {data.map((elem) => (
+          <div className="card">
+            <img src={elem.image} alt="dddfgd" />
+            <div className="card-content">
+              <h3>{elem.name}</h3>
+              <h3>{elem.symbol}</h3>
+              <h3>{elem.current_price}</h3>
             </div>
+          </div>
         ))}
       </div>
     </div>
